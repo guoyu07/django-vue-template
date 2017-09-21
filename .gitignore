@@ -11,6 +11,8 @@ db.sqlite3
 static/
 staticfiles/
 .idea/
+./uwsgi/uwsgi.pid
+./uwsgi/uwsgi.log
 
 
 
