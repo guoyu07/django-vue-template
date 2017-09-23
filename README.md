@@ -64,3 +64,16 @@ Use python3 when ```python``` doesn't work, depending on your python version (py
 
  Visit your site by ```localhost:8000```.
 
+
+
+5. Deploy on server
+
+Replace the configure file of nginx ( mine is ```/etc/nginx/nginx.conf``` ) with file in project.
+
+Run command:
+
+```shell
+uwsgi --ini uwsgi/uwsgi-conf.ini
+sudo service nginx start
+```
+
