@@ -70,7 +70,13 @@ Use python3 when ```python``` doesn't work, depending on your python version (py
 
 Replace the configure file of nginx ( mine is ```/etc/nginx/nginx.conf``` ) with file in project.
 
-Run command:
+Run this to collect your static files so nginx can use them:
+
+```shell
+python manage.py collectstatic
+```
+
+Run command to start your website:
 
 ```shell
 uwsgi --ini uwsgi/uwsgi-conf.ini
