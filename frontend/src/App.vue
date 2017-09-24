@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view></router-view>
+    <h1>Hello World</h1>
+    <a href="http://47.95.122.163:8000">仿南开大学软件学院主页</a>
   </div>
 </template>
 
