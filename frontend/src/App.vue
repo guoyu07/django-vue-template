@@ -2,7 +2,8 @@
   <div id="app">
     <img src="./assets/logo.png">
     <h1>Hello World</h1>
-    <a href="http://47.95.122.163:8000">仿南开大学软件学院主页</a>
+    <a href="http://blog.letow.top" style="color: #008080;">我的博客</a>
+    <a href="http://47.95.122.163:8000" style="color: #D2B48C;">仿南开大学软件学院主页</a>
   </div>
 </template>
 
@@ -20,5 +21,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+a {
+  font-weight: bold;
 }
 </style>
